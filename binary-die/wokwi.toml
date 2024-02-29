@@ -1,0 +1,4 @@
+[wokwi]
+version = 1
+firmware = 'build/binary-die.hex'
+elf = 'build/binary-die.uf2'
