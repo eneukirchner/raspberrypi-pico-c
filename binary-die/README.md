@@ -4,3 +4,4 @@ stops the counter and displays the binary representation of the value on 4 LEDs.
 
 This directory contains all files for running the project in the wokwi simulator under Visual Studio Code.
 
+![Wokwi Simulator](wokwi.png)
