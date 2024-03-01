@@ -9,8 +9,8 @@ class Ledbank {
     void chase();
   protected:
     const std::vector<uint>& m_leds;
-    bool m_onoff = 0;
-    uint m_position = 0;
+    bool m_onoff;
+    uint m_position;
 };
 
 class RGBLed : public Ledbank {

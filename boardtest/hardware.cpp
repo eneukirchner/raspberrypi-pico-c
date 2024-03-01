@@ -2,7 +2,7 @@
 #include "hardware/adc.h"
 
 Ledbank::Ledbank(const std::vector<uint>& leds) :
-  m_leds(leds)
+  m_leds(leds), m_onoff(0), m_position(0)
 {
   for (auto led : m_leds) {
       gpio_init(led);
